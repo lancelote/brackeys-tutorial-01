@@ -1,8 +1,8 @@
 extends Node2D
 
-const SPEED = 60
+const SPEED: int = 60
 
-var direction = +1
+var direction: int = +1
 
 @onready var ray_cast_right: RayCast2D = $RayCastRight
 @onready var ray_cast_left: RayCast2D = $RayCastLeft
