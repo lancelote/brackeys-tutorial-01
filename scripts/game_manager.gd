@@ -1,6 +1,6 @@
 extends Node
 
-var score = 0
+var score: int = 0
 
 @onready var label_coins_collected: Label = $"../Labels/LabelCoinsCollected"
 
